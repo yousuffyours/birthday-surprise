@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Tasmim Tisha ❤️</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#ffd6e7,#fff0f5);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+text-align:center;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 0 20px rgba(0,0,0,0.1);
+max-width:600px;
+}
+
+button{
+background:#ff4d88;
+color:white;
+border:none;
+padding:12px 25px;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+#message{
+display:none;
+margin-top:20px;
+}
+
+h1{
+color:#ff4d88;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div id="start">
+<h1>💌 A Birthday Surprise For Tasmim Tisha</h1>
+<p>Tap the button below ❤️</p>
+<button onclick="showMessage()">Open Surprise</button>
+</div>
+
+<div id="message">
+<h1>🎂 Happy Birthday Tasmim Tisha ❤️</h1>
+
+<p>
+May your day be filled with happiness, love and beautiful memories. 🌸<br><br>
+
+Wishing you endless smiles, success and joy in life. ✨<br><br>
+
+Enjoy your special day and always keep smiling. ❤️
+</p>
+
+<h2>💖 Best Wishes For You 💖</h2>
+</div>
+
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("start").style.display="none";
+document.getElementById("message").style.display="block";
+}
+</script>
+
+</body>
+</html>
